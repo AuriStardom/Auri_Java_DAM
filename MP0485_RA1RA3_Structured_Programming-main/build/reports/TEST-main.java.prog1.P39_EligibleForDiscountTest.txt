@@ -1,0 +1,4 @@
+Testsuite: main.java.prog1.P39_EligibleForDiscountTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.247 sec
+
+Testcase: testEligibleForDiscount took 0.067 sec

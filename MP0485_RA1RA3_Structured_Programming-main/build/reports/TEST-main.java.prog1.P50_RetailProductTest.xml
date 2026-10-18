@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="Navi" name="main.java.prog1.P50_RetailProductTest" skipped="0" tests="1" time="0.187" timestamp="2026-09-29T11:02:08">
+  <properties>
+    <property name="java.specification.version" value="26" />
+    <property name="ant.project.name" value="MP0485_Programming" />
+    <property name="sun.jnu.encoding" value="UTF-8" />
+    <property name="sun.java2d.dpiaware" value="true" />
+    <property name="sun.arch.data.model" value="64" />
+    <property name="java.vendor.url" value="https://adoptium.net/" />
+    <property name="sun.boot.library.path" value="/usr/lib/apache-netbeans/jdk/lib" />
+    <property name="netbeans.importclass" value="org.netbeans.upgrade.AutoUpgrade" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner main.java.prog1.P50_RetailProductTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/home/auristar/NetBeansProjects/MP0485_RA1RA3_Structured_Programming-main/build/reports/TEST-main.java.prog1.P50_RetailProductTest.xml formatter=org.apache.tools.ant.taskdefs.optional.junit.PlainJUnitResultFormatter,/home/auristar/NetBeansProjects/MP0485_RA1RA3_Structured_Programming-main/build/reports/TEST-main.java.prog1.P50_RetailProductTest.txt crashfile=/home/auristar/NetBeansProjects/MP0485_RA1RA3_Structured_Programming-main/junitvmwatcher7014377904565434427.properties propsfile=/home/auristar/NetBeansProjects/MP0485_RA1RA3_Structured_Programming-main/junit5229114885768133810.properties" />
+    <property name="test.classes.dir" value="build/test-classes" />
+    <property name="guice_custom_class_loading" value="CHILD" />
+    <property name="jdk.debug" value="release" />
+    <property name="netbeans.autoupdate.version" value="1.23" />
+    <property name="java.specification.vendor" value="Oracle Corporation" />
+    <property name="java.version.date" value="2026-07-21" />
+    <property name="java.home" value="/usr/lib/apache-netbeans/jdk" />
+    <property name="ant.file.type.MP0485_Programming" value="file" />
+    <property name="netbeans.user" value="/home/auristar/.netbeans/31" />
+    <property name="basedir" value="/home/auristar/NetBeansProjects/MP0485_RA1RA3_Structured_Programming-main" />
+    <property name="file.separator" value="/" />
+    <property name="java.vm.compressedOopsMode" value="32-bit" />
+    <property name="line.separator" value="&#xa;" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+    <property name="jna.boot.library.name" value="jnidispatch-nb" />
+    <property name="netbeans.productversion" value="Apache NetBeans IDE 31" />
+    <property name="org.apache.commons.logging.LogFactory" value="org.apache.commons.logging.impl.LogFactoryImpl" />
+    <property name="netbeans.extbrowser.manual_chrome_plugin_install" value="yes" />
+    <property name="netbeans.default_userdir_root" value="/home/auristar/.netbeans" />
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+    <property name="jdk.home" value="/usr/lib/apache-netbeans/jdk" />
+    <property name="java.runtime.version" value="26.0.2+10" />
+    <property name="user.name" value="auristar" />
+    <property name="sun.java2d.noddraw" value="true" />
+    <property name="file.encoding" value="UTF-8" />
+    <property name="java.util.logging.config.class" value="org.netbeans.core.startup.TopLogging" />
+    <property name="guice.disable.misplaced.annotation.check" value="true" />
+    <property name="https.nonProxyHosts" value="localhost|127.0.0.1|Navi" />
+    <property name="java.vendor.version" value="Temurin-26.0.2+10" />
+    <property name="nu.validator.checker.imageCandidateString.hasWidth" value="0" />
+    <property name="apple.awt.application.appearance" value="system" />
+    <property name="build.dir" value="build" />
+    <property name="java.lang.Runtime.level" value="FINE" />
+    <property name="jna.loaded" value="true" />
+    <property name="java.io.tmpdir" value="/tmp" />
+    <property name="java.version" value="26.0.2" />
+    <property name="netbeans.autoupdate.variant" value="" />
+    <property name="sun.misc.unsafe.memory.access" value="warn" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="ant.junit.enabletestlistenerevents" value="true" />
+    <property name="ant.home" value="/usr/lib/apache-netbeans/extide/ant" />
+    <property name="nb.native.filechooser" value="false" />
+    <property name="native.encoding" value="UTF-8" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.10.17 compiled on April 6 2026" />
+    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib" />
+    <property name="stderr.encoding" value="UTF-8" />
+    <property name="java.vendor" value="Eclipse Adoptium" />
+    <property name="classes.dir" value="build/classes" />
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+    <property name="netbeans.dirs" value="/usr/lib/apache-netbeans/nb:/usr/lib/apache-netbeans/ergonomics:/usr/lib/apache-netbeans/ide:/usr/lib/apache-netbeans/extide:/usr/lib/apache-netbeans/java:/usr/lib/apache-netbeans/apisupport:/usr/lib/apache-netbeans/webcommon:/usr/lib/apache-netbeans/websvccommon:/usr/lib/apache-netbeans/enterprise:/usr/lib/apache-netbeans/mobility:/usr/lib/apache-netbeans/profiler:/usr/lib/apache-netbeans/python:/usr/lib/apache-netbeans/php:/usr/lib/apache-netbeans/identity:/usr/lib/apache-netbeans/harness:/usr/lib/apache-netbeans/cnd:/usr/lib/apache-netbeans/cndext:/usr/lib/apache-netbeans/cpplite:/usr/lib/apache-netbeans/dlight:/usr/lib/apache-netbeans/groovy:/usr/lib/apache-netbeans/extra:/usr/lib/apache-netbeans/javacard:/usr/lib/apache-netbeans/javafx:/usr/lib/apache-netbeans/rust:" />
+    <property name="org.openide.version" value="deprecated" />
+    <property name="netbeans.dynamic.classpath" value="/usr/lib/apache-netbeans/platform/core/asm-9.10.jar:/usr/lib/apache-netbeans/platform/core/core-base.jar:/usr/lib/apache-netbeans/platform/core/asm-tree-9.10.jar:/usr/lib/apache-netbeans/platform/core/org-openide-filesystems.jar:/usr/lib/apache-netbeans/platform/core/asm-commons-9.10.jar:/usr/lib/apache-netbeans/platform/core/org-netbeans-libs-asm.jar:/usr/lib/apache-netbeans/platform/core/org-openide-filesystems-compat8.jar:/usr/lib/apache-netbeans/platform/core/core.jar:/usr/lib/apache-netbeans/nb/core/org-netbeans-upgrader.jar:/usr/lib/apache-netbeans/nb/core/locale/core_nb.jar" />
+    <property name="flatlaf.nativeLibraryPath" value="system" />
+    <property name="netbeans.autoupdate.country" value="US" />
+    <property name="truffle.UseFallbackRuntime" value="true" />
+    <property name="sun.awt.enableExtraMouseButtons" value="true" />
+    <property name="test.src.dir" value="test" />
+    <property name="java.class.path" value="/home/auristar/NetBeansProjects/MP0485_RA1RA3_Structured_Programming-main/lib/junit-4.13.2.jar:/home/auristar/NetBeansProjects/MP0485_RA1RA3_Structured_Programming-main/lib/hamcrest-core-1.3.jar:/home/auristar/NetBeansProjects/MP0485_RA1RA3_Structured_Programming-main/build/classes:/home/auristar/NetBeansProjects/MP0485_RA1RA3_Structured_Programming-main/build/test-classes:/usr/lib/apache-netbeans/extide/ant/lib/ant-launcher.jar:/usr/lib/apache-netbeans/extide/ant/lib/ant.jar:/usr/lib/apache-netbeans/extide/ant/lib/ant-junit.jar:/usr/lib/apache-netbeans/extide/ant/lib/ant-junit4.jar" />
+    <property name="org.openide.major.version" value="IDE/1" />
+    <property name="java.vm.vendor" value="Eclipse Adoptium" />
+    <property name="netbeans.buildnumber" value="31-f8ac37e0f2434a7f000fbe3360f1a92aa3ea67bc" />
+    <property name="org.openide.specification.version" value="6.2" />
+    <property name="user.timezone" value="Europe/Madrid" />
+    <property name="java.vm.specification.version" value="26" />
+    <property name="os.name" value="Linux" />
+    <property name="apple.laf.useScreenMenuBar" value="true" />
+    <property name="ant.file.type.MP0485_RA1RA3_Structured_Programming-impl" value="file" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="user.country" value="US" />
+    <property name="http.nonProxyHosts" value="localhost|127.0.0.1|Navi" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="user.home" value="/home/auristar" />
+    <property name="user.language" value="en" />
+    <property name="maven.defaultProjectBuilder.disableGlobalModelCache" value="true" />
+    <property name="flatlaf.updateUIOnSystemFontChange" value="false" />
+    <property name="ant.java.version" value="26" />
+    <property name="plugin.manager.check.updates" value="false" />
+    <property name="netbeans.autoupdate.language" value="en" />
+    <property name="polyglot.engine.WarnInterpreterOnly" value="false" />
+    <property name="build.compiler.emacs" value="true" />
+    <property name="ant.file" value="/home/auristar/NetBeansProjects/MP0485_RA1RA3_Structured_Programming-main/build.xml" />
+    <property name="netbeans.hash.code" value="unique=07c7e7db5-0fdf-49b1-9201-668e34c82371_4aecfd32-4075-4ed4-9e84-a25f0b45a5c7" />
+    <property name="ant.file.MP0485_Programming" value="/home/auristar/NetBeansProjects/MP0485_RA1RA3_Structured_Programming-main/build.xml" />
+    <property name="stdout.encoding" value="UTF-8" />
+    <property name="path.separator" value=":" />
+    <property name="jna.nosys" value="false" />
+    <property name="os.version" value="6.14.0-37-generic" />
+    <property name="netbeans.home" value="/usr/lib/apache-netbeans/platform" />
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment" />
+    <property name="ant.project.invoked-targets" value="junit-html-report" />
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM" />
+    <property name="jna.platform.library.path" value="/usr/lib/x86_64-linux-gnu:/lib/x86_64-linux-gnu:/usr/lib64:/lib64:/usr/lib:/lib:/lib/i386-linux-gnu:/usr/lib/x86_64-linux-gnu/libfakeroot" />
+    <property name="report.dir" value="build/reports" />
+    <property name="ant.core.lib" value="/usr/lib/apache-netbeans/extide/ant/lib/ant.jar" />
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues" />
+    <property name="user.dir" value="/home/auristar" />
+    <property name="os.arch" value="amd64" />
+    <property name="ant.file.MP0485_RA1RA3_Structured_Programming-impl" value="/home/auristar/NetBeansProjects/MP0485_RA1RA3_Structured_Programming-main/nbproject/build-impl.xml" />
+    <property name="org.xml.sax.driver" value="com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser" />
+    <property name="java.vm.info" value="mixed mode, sharing" />
+    <property name="stdin.encoding" value="UTF-8" />
+    <property name="java.vm.version" value="26.0.2+10" />
+    <property name="sun.awt.datatransfer.timeout" value="1000" />
+    <property name="org.apache.commons.logging.Log" value="org.apache.commons.logging.impl.Jdk14Logger" />
+    <property name="java.class.version" value="70.0" />
+    <property name="src.dir" value="src" />
+    <property name="org.netbeans.io.suspend" value="0" />
+    <property name="ant.project.default-target" value="default" />
+  </properties>
+  <testcase classname="main.java.prog1.P50_RetailProductTest" name="testRetailProductCalculations" time="0.016" />
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,4 @@
+Testsuite: main.java.prog1.P27_NumberPowTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.204 sec
+
+Testcase: testPowerOutputs took 0.036 sec

@@ -1,0 +1,7 @@
+Testsuite: main.java.prog2.P04_PositivityTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.24 sec
+
+Testcase: testZeroIsNotPositive took 0.018 sec
+Testcase: testNegativeNumber took 0.003 sec
+Testcase: testLargePositive took 0.01 sec
+Testcase: testPositiveNumber took 0.003 sec

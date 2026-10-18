@@ -1,0 +1,7 @@
+Testsuite: main.java.prog2.P03_AncientTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.234 sec
+
+Testcase: testNoOutputForYear2015 took 0.028 sec
+Testcase: testPrintAncientForYearBefore2015 took 0.003 sec
+Testcase: testPrintAncientForYearFarPast took 0.004 sec
+Testcase: testNoOutputForYearAfter2015 took 0.002 sec

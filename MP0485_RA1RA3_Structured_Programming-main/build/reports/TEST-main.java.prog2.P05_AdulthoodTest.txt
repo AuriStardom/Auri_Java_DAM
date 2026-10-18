@@ -1,0 +1,7 @@
+Testsuite: main.java.prog2.P05_AdulthoodTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.235 sec
+
+Testcase: testAge17 took 0.019 sec
+Testcase: testAge18 took 0.003 sec
+Testcase: testAge99 took 0.002 sec
+Testcase: testAge0 took 0.002 sec

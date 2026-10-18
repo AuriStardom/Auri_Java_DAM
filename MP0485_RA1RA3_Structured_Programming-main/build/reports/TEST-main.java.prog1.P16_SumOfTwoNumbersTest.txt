@@ -1,0 +1,4 @@
+Testsuite: main.java.prog1.P16_SumOfTwoNumbersTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.249 sec
+
+Testcase: testSumOutput took 0.032 sec

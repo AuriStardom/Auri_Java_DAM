@@ -1,0 +1,83 @@
+Testsuite: main.java.prog2.P34_SumOfASequenceTheSequelTest
+Tests run: 5, Failures: 5, Errors: 0, Skipped: 0, Time elapsed: 0.25 sec
+
+Testcase: testFromNegativeToPositive took 0.027 sec
+	FAILED
+Expected output to contain:
+The sum is 0
+but was:
+
+junit.framework.AssertionFailedError: Expected output to contain:
+The sum is 0
+but was:
+
+	at main.java.prog2.P34_SumOfASequenceTheSequelTest.testOutput(Unknown Source)
+	at main.java.prog2.P34_SumOfASequenceTheSequelTest.testFromNegativeToPositive(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:330)
+	at java.base/java.lang.Thread.run(Thread.java:1516)
+
+Testcase: testFrom0To0 took 0.004 sec
+	FAILED
+Expected output to contain:
+The sum is 0
+but was:
+
+junit.framework.AssertionFailedError: Expected output to contain:
+The sum is 0
+but was:
+
+	at main.java.prog2.P34_SumOfASequenceTheSequelTest.testOutput(Unknown Source)
+	at main.java.prog2.P34_SumOfASequenceTheSequelTest.testFrom0To0(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:330)
+	at java.base/java.lang.Thread.run(Thread.java:1516)
+
+Testcase: testFrom3To5 took 0.003 sec
+	FAILED
+Expected output to contain:
+The sum is 12
+but was:
+
+junit.framework.AssertionFailedError: Expected output to contain:
+The sum is 12
+but was:
+
+	at main.java.prog2.P34_SumOfASequenceTheSequelTest.testOutput(Unknown Source)
+	at main.java.prog2.P34_SumOfASequenceTheSequelTest.testFrom3To5(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:330)
+	at java.base/java.lang.Thread.run(Thread.java:1516)
+
+Testcase: testFrom10To10 took 0.003 sec
+	FAILED
+Expected output to contain:
+The sum is 10
+but was:
+
+junit.framework.AssertionFailedError: Expected output to contain:
+The sum is 10
+but was:
+
+	at main.java.prog2.P34_SumOfASequenceTheSequelTest.testOutput(Unknown Source)
+	at main.java.prog2.P34_SumOfASequenceTheSequelTest.testFrom10To10(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:330)
+	at java.base/java.lang.Thread.run(Thread.java:1516)
+
+Testcase: testFrom1To10 took 0.003 sec
+	FAILED
+Expected output to contain:
+The sum is 55
+but was:
+
+junit.framework.AssertionFailedError: Expected output to contain:
+The sum is 55
+but was:
+
+	at main.java.prog2.P34_SumOfASequenceTheSequelTest.testOutput(Unknown Source)
+	at main.java.prog2.P34_SumOfASequenceTheSequelTest.testFrom1To10(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:330)
+	at java.base/java.lang.Thread.run(Thread.java:1516)
+

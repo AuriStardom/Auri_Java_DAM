@@ -1,0 +1,4 @@
+Testsuite: main.java.prog1.P30_Seconds2MinutesTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.241 sec
+
+Testcase: testSecondsToMinutes took 0.045 sec

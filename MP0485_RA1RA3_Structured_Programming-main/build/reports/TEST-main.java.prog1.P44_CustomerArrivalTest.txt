@@ -1,0 +1,4 @@
+Testsuite: main.java.prog1.P44_CustomerArrivalTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.2 sec
+
+Testcase: testCustomerArrivalTimesAndAverage took 0.035 sec

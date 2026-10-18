@@ -1,0 +1,4 @@
+Testsuite: main.java.prog1.P48_YearlySavingsTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.159 sec
+
+Testcase: testYearlySavingsOutput took 0.009 sec

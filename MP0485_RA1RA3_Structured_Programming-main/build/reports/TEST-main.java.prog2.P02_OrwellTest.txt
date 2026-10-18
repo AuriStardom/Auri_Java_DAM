@@ -1,0 +1,7 @@
+Testsuite: main.java.prog2.P02_OrwellTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.248 sec
+
+Testcase: testPrintOrwellForYearExactly1984 took 0.03 sec
+Testcase: testNoOutputForYearBefore1984 took 0.003 sec
+Testcase: testNoOutputForOtherYear took 0.004 sec
+Testcase: testPrintOrwellFor1984 took 0.007 sec

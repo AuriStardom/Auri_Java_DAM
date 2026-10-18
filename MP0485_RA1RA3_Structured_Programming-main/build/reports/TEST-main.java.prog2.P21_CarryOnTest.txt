@@ -1,0 +1,14 @@
+Testsuite: main.java.prog2.P21_CarryOnTest
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 1.218 sec
+
+Testcase: testCarryOn took 1.022 sec
+	Caused an ERROR
+test timed out after 1000 milliseconds
+org.junit.runners.model.TestTimedOutException: test timed out after 1000 milliseconds
+	at main.java.prog2.P21_CarryOn.main(P21_CarryOn.java:15)
+	at main.java.prog2.P21_CarryOnTest.runWithInput(Unknown Source)
+	at main.java.prog2.P21_CarryOnTest.testCarryOn(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:330)
+	at java.base/java.lang.Thread.run(Thread.java:1516)
+

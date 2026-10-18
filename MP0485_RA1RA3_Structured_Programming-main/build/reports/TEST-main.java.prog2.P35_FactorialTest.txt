@@ -1,0 +1,12 @@
+Testsuite: main.java.prog2.P35_FactorialTest
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.237 sec
+
+Testcase: testFactorial took 0.048 sec
+	FAILED
+Test case 1 (factorial of 0): Expected 'Give a number: Factorial: 1', but got ''
+junit.framework.AssertionFailedError: Test case 1 (factorial of 0): Expected 'Give a number: Factorial: 1', but got ''
+	at main.java.prog2.P35_FactorialTest.testFactorial(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:330)
+	at java.base/java.lang.Thread.run(Thread.java:1516)
+

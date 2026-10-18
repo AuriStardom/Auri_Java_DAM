@@ -1,0 +1,7 @@
+Testsuite: main.java.prog2.P01_SpeedingTicketTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.207 sec
+
+Testcase: testSpeedingTicketJustAboveLimit took 0.016 sec
+Testcase: testSpeedingTicketBelowLimit took 0.003 sec
+Testcase: testSpeedingTicketAtLimit took 0.002 sec
+Testcase: testSpeedingTicketOverLimit took 0.002 sec

@@ -1,0 +1,4 @@
+Testsuite: main.java.prog1.P45_WeeklySalesTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.212 sec
+
+Testcase: testWeeklySalesOutputFormatAndRange took 0.03 sec

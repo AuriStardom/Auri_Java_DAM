@@ -1,0 +1,29 @@
+package main.java.prog1;
+
+import java.util.Scanner;
+
+/**
+ * <div class="block">
+ *   <strong>Operators</strong><br/>
+ *   Program to calculate data <br/>
+ *   <img src="../../../../javadoc/resources/P19_MultiplicationFormula.png"/>
+ * </div>
+ */
+public class P19_MultiplicationFormula {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        
+        System.out.println("Give the first number:");
+        int number_one = scanner.nextInt();
+        System.out.println("Give the second number:");
+        int number_two = scanner.nextInt();
+        int result = number_one * number_two;
+        System.out.println(number_one + " * " + number_two + " = " + result);
+        
+        // Write your program here
+        // Hint: Apply a multiplication formula to calculate a result
+
+    }
+}
