@@ -15,6 +15,19 @@ public class P49_PrinterStars {
     }
 
     public static void printArrayInStars(int[] array) {
+        
+        String asterisco = "*";
+        for (int i=0; i<array.length;i++) {
+            int numasterisc = array[i];
+            for (int e=0; e<numasterisc;e++) {
+                System.out.print(asterisco);
+            }
+            System.out.println("");
+        }
+        
+        
+        
+        
         // Write some code in here
         // Hint: For each number in array, print that many stars on a line
         

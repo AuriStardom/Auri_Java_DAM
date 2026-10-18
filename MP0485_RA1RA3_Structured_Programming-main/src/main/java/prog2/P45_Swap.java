@@ -21,6 +21,10 @@ public class P45_Swap {
         int num1 = scanner.nextInt();
         System.out.println("Give the second number:");
         int num2 = scanner.nextInt();
+        int num2clone = numbers[num2];
+        int num1clone = numbers[num1];
+        numbers[num1] = num2clone;
+        numbers[num2] = num1clone;
         System.out.println(numbers[0] + "," + numbers[1] + "," + numbers[2] + "," + numbers[3] + "," + numbers[4] + ",");
         
         

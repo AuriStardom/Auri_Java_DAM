@@ -60,7 +60,9 @@ public class P50_LongJumpCompetition {
 
     public static int addParticipant(int[][] participants, int count, Scanner scanner, int DORSAL, int BEST_MARK) {
         // Write your code here        
-
+        
+        
+        
         System.out.println("Participant registered.");
         return count + 1;
     }
@@ -69,11 +71,17 @@ public class P50_LongJumpCompetition {
         // Write your code here
         // Use Bubble Sort algorithm.
         
+        
+        
+        
     }
 
     public static void printParticipants(int[][] array, int count) {
         System.out.println("Dorsal, BestMark");
         // Write your code here
+        
+        
+        
         
     }
 }

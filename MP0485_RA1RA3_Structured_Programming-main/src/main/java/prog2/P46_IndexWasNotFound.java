@@ -34,8 +34,7 @@ public class P46_IndexWasNotFound {
             if (searching == array[i]) {
                 found=true;
                 break;
-            }
-           
+            } 
         }
          if (found) {
                 System.out.println(searching + " is at index " + i + ".");

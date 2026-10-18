@@ -17,6 +17,11 @@ public class P47_SumOfArray {
     public static int sumOfNumbersInArray(int[] array) {
         int sum = 0;
         
+        for (int i=0; i<array.length; i++) {
+            sum += array[i];
+        }
+        
+        
         // Write some code here
         // Hint: Iterates through the array using a for loop and sum all elements
                 
