@@ -15,13 +15,13 @@ public class P06_LargerThanOrEqualTo {
         System.out.println("Give the second number:");
         int num_2 = scan.nextInt();
         if (num_1 > num_2){
-        System.out.println("greater number is: " + num_1);
+        System.out.println("Greater number is: " + num_1);
     }
-        if (num_1 == num_2){
+        else if (num_1 == num_2){
             System.out.println("The numbers are equal!");
         }
         else{
-            System.out.println("greater number is: " + num_2);
+            System.out.println("Greater number is: " + num_2);
         }
         
         // Write your program here
