@@ -61,25 +61,47 @@ public class P50_LongJumpCompetition {
     public static int addParticipant(int[][] participants, int count, Scanner scanner, int DORSAL, int BEST_MARK) {
         // Write your code here        
         
+        System.out.println("Enter dorsal number:");
+        DORSAL = scanner.nextInt();
+        System.out.println("Enter best mark:");
+        BEST_MARK = scanner.nextInt();
         
+        participants[count][0] = DORSAL;
+        participants[count][1] = BEST_MARK;
         
         System.out.println("Participant registered.");
         return count + 1;
     }
 
-    public static void sortBy(int[][] array, int count, int field) {
+    public static void sortBy(int[][] participants, int count, int field) {
         // Write your code here
         // Use Bubble Sort algorithm.
+        
+        
+        int temp = 0;
+        
+        for(int i=0; i < count-1;i++) {            
+           for (int row=0; row < count-i-1;row++)  {
+                if (participants[row][field] > participants[row+1][0]) { 
+                    temp = participants[row][field];
+                    participants[row][field] = participants[row+1][field];
+                    participants[row+1][field] = temp;
+                }
+            }
+        }
         
         
         
         
     }
 
-    public static void printParticipants(int[][] array, int count) {
+    public static void printParticipants(int[][] participants, int count) {
         System.out.println("Dorsal, BestMark");
         // Write your code here
         
+        for (int i=0; i < count;i++) {
+            System.out.println(participants[i][0]+"       "+participants[i][1]);
+    }
         
         
         
