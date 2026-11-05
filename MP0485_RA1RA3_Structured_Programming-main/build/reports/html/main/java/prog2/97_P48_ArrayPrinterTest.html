@@ -163,8 +163,6 @@
     
         cur['netbeans.user'] = '/home/auristar/.netbeans/31';
     
-        cur['nu.validator.checker.imageCandidateString.hasWidth'] = '0';
-    
         cur['org.apache.commons.logging.Log'] = 'org.apache.commons.logging.impl.Jdk14Logger';
     
         cur['org.apache.commons.logging.LogFactory'] = 'org.apache.commons.logging.impl.LogFactoryImpl';
@@ -213,7 +211,7 @@
     
         cur['sun.io.unicode.encoding'] = 'UnicodeLittle';
     
-        cur['sun.java.command'] = 'org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner main.java.prog2.P48_ArrayPrinterTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/home/auristar/NetBeansProjects/MP0485_RA1RA3_Structured_Programming-main/build/reports/TEST-main.java.prog2.P48_ArrayPrinterTest.xml formatter=org.apache.tools.ant.taskdefs.optional.junit.PlainJUnitResultFormatter,/home/auristar/NetBeansProjects/MP0485_RA1RA3_Structured_Programming-main/build/reports/TEST-main.java.prog2.P48_ArrayPrinterTest.txt crashfile=/home/auristar/NetBeansProjects/MP0485_RA1RA3_Structured_Programming-main/junitvmwatcher6929073749330298448.properties propsfile=/home/auristar/NetBeansProjects/MP0485_RA1RA3_Structured_Programming-main/junit15577848575103596177.properties';
+        cur['sun.java.command'] = 'org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner main.java.prog2.P48_ArrayPrinterTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/home/auristar/NetBeansProjects/MP0485_RA1RA3_Structured_Programming-main/build/reports/TEST-main.java.prog2.P48_ArrayPrinterTest.xml formatter=org.apache.tools.ant.taskdefs.optional.junit.PlainJUnitResultFormatter,/home/auristar/NetBeansProjects/MP0485_RA1RA3_Structured_Programming-main/build/reports/TEST-main.java.prog2.P48_ArrayPrinterTest.txt crashfile=/home/auristar/NetBeansProjects/MP0485_RA1RA3_Structured_Programming-main/junitvmwatcher5583390004725529375.properties propsfile=/home/auristar/NetBeansProjects/MP0485_RA1RA3_Structured_Programming-main/junit13654504029121893731.properties';
     
         cur['sun.java.launcher'] = 'SUN_STANDARD';
     
@@ -287,8 +285,8 @@
             <tr valign="top">
                 <th width="80%">Name</th><th>Tests</th><th>Errors</th><th>Failures</th><th>Skipped</th><th nowrap>Time(s)</th><th nowrap>Time Stamp</th><th>Host</th>
             </tr>
-            <tr valign="top" class="Failure">
-                <td><a title="Display all tests" href="97_P48_ArrayPrinterTest.html">P48_ArrayPrinterTest</a></td><td><a title="Display all tests" href="97_P48_ArrayPrinterTest.html">4</a></td><td>0</td><td><a title="Display only failures" href="97_P48_ArrayPrinterTest-fails.html">3</a></td><td>0</td><td>0.214</td><td>2026-09-29T11:02:44</td><td>Navi</td>
+            <tr valign="top" class="Pass">
+                <td><a title="Display all tests" href="97_P48_ArrayPrinterTest.html">P48_ArrayPrinterTest</a></td><td><a title="Display all tests" href="97_P48_ArrayPrinterTest.html">4</a></td><td>0</td><td>0</td><td>0</td><td>0.297</td><td>2026-10-20T11:37:04</td><td>Navi</td>
             </tr>
         </table>
         <h2>Tests</h2>
@@ -297,55 +295,16 @@
                 <th>Name</th><th>Status</th><th width="80%">Type</th><th nowrap>Time(s)</th>
             </tr>
             <tr valign="top" class="TableRowColor">
-                <td><a name="testPrintNeatlyEmptyArray"></a>testPrintNeatlyEmptyArray</td><td>Success</td><td></td><td>0.012</td>
+                <td><a name="testPrintNeatlyEmptyArray"></a>testPrintNeatlyEmptyArray</td><td>Success</td><td></td><td>0.020</td>
             </tr>
-            <tr valign="top" class="Failure">
-                <td><a name="testPrintNeatlySingleElement"></a>testPrintNeatlySingleElement</td><td>Failure</td><td>Output for {7} should be exactly '7' expected:&lt;[7]&gt; but was:&lt;[]&gt;
-                    <br>
-                    <br>
-                    <code>junit.framework.AssertionFailedError: Output for {7} should be exactly '7' expected:&lt;[7]&gt; but was:&lt;[]&gt;
-                        <br>
-                        	at main.java.prog2.P48_ArrayPrinterTest.testPrintNeatlySingleElement(Unknown Source)
-                        <br>
-                        	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-                        <br>
-                        	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:330)
-                        <br>
-                        	at java.base/java.lang.Thread.run(Thread.java:1516)
-                        <br>
-                    </code></td><td>0.015</td>
+            <tr valign="top" class="TableRowColor">
+                <td><a name="testPrintNeatlySingleElement"></a>testPrintNeatlySingleElement</td><td>Success</td><td></td><td>0.002</td>
             </tr>
-            <tr valign="top" class="Failure">
-                <td><a name="testPrintNeatlyThreeElements"></a>testPrintNeatlyThreeElements</td><td>Failure</td><td>Output for {1, 2, 3} should be exactly '1, 2, 3' expected:&lt;[1, 2, 3]&gt; but was:&lt;[]&gt;
-                    <br>
-                    <br>
-                    <code>junit.framework.AssertionFailedError: Output for {1, 2, 3} should be exactly '1, 2, 3' expected:&lt;[1, 2, 3]&gt; but was:&lt;[]&gt;
-                        <br>
-                        	at main.java.prog2.P48_ArrayPrinterTest.testPrintNeatlyThreeElements(Unknown Source)
-                        <br>
-                        	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-                        <br>
-                        	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:330)
-                        <br>
-                        	at java.base/java.lang.Thread.run(Thread.java:1516)
-                        <br>
-                    </code></td><td>0.009</td>
+            <tr valign="top" class="TableRowColor">
+                <td><a name="testPrintNeatlyThreeElements"></a>testPrintNeatlyThreeElements</td><td>Success</td><td></td><td>0.003</td>
             </tr>
-            <tr valign="top" class="Failure">
-                <td><a name="testPrintNeatlyMultipleElements"></a>testPrintNeatlyMultipleElements</td><td>Failure</td><td>Output for {5, 1, 3, 4, 2} should be exactly '5, 1, 3, 4, 2' expected:&lt;[5, 1, 3, 4, 2]&gt; but was:&lt;[]&gt;
-                    <br>
-                    <br>
-                    <code>junit.framework.AssertionFailedError: Output for {5, 1, 3, 4, 2} should be exactly '5, 1, 3, 4, 2' expected:&lt;[5, 1, 3, 4, 2]&gt; but was:&lt;[]&gt;
-                        <br>
-                        	at main.java.prog2.P48_ArrayPrinterTest.testPrintNeatlyMultipleElements(Unknown Source)
-                        <br>
-                        	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-                        <br>
-                        	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:330)
-                        <br>
-                        	at java.base/java.lang.Thread.run(Thread.java:1516)
-                        <br>
-                    </code></td><td>0.006</td>
+            <tr valign="top" class="TableRowColor">
+                <td><a name="testPrintNeatlyMultipleElements"></a>testPrintNeatlyMultipleElements</td><td>Success</td><td></td><td>0.002</td>
             </tr>
         </table>
         <div class="Properties">

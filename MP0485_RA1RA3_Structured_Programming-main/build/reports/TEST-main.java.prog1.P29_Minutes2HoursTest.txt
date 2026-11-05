@@ -1,4 +1,4 @@
 Testsuite: main.java.prog1.P29_Minutes2HoursTest
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.254 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.174 sec
 
-Testcase: testConversion took 0.057 sec
+Testcase: testConversion took 0.032 sec

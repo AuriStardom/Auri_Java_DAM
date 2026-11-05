@@ -163,8 +163,6 @@
     
         cur['netbeans.user'] = '/home/auristar/.netbeans/31';
     
-        cur['nu.validator.checker.imageCandidateString.hasWidth'] = '0';
-    
         cur['org.apache.commons.logging.Log'] = 'org.apache.commons.logging.impl.Jdk14Logger';
     
         cur['org.apache.commons.logging.LogFactory'] = 'org.apache.commons.logging.impl.LogFactoryImpl';
@@ -213,7 +211,7 @@
     
         cur['sun.io.unicode.encoding'] = 'UnicodeLittle';
     
-        cur['sun.java.command'] = 'org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner main.java.prog2.P49_PrinterStarsTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/home/auristar/NetBeansProjects/MP0485_RA1RA3_Structured_Programming-main/build/reports/TEST-main.java.prog2.P49_PrinterStarsTest.xml formatter=org.apache.tools.ant.taskdefs.optional.junit.PlainJUnitResultFormatter,/home/auristar/NetBeansProjects/MP0485_RA1RA3_Structured_Programming-main/build/reports/TEST-main.java.prog2.P49_PrinterStarsTest.txt crashfile=/home/auristar/NetBeansProjects/MP0485_RA1RA3_Structured_Programming-main/junitvmwatcher1087686217278441869.properties propsfile=/home/auristar/NetBeansProjects/MP0485_RA1RA3_Structured_Programming-main/junit5418981778926646898.properties';
+        cur['sun.java.command'] = 'org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner main.java.prog2.P49_PrinterStarsTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/home/auristar/NetBeansProjects/MP0485_RA1RA3_Structured_Programming-main/build/reports/TEST-main.java.prog2.P49_PrinterStarsTest.xml formatter=org.apache.tools.ant.taskdefs.optional.junit.PlainJUnitResultFormatter,/home/auristar/NetBeansProjects/MP0485_RA1RA3_Structured_Programming-main/build/reports/TEST-main.java.prog2.P49_PrinterStarsTest.txt crashfile=/home/auristar/NetBeansProjects/MP0485_RA1RA3_Structured_Programming-main/junitvmwatcher8931337457388974010.properties propsfile=/home/auristar/NetBeansProjects/MP0485_RA1RA3_Structured_Programming-main/junit16728226221560402307.properties';
     
         cur['sun.java.launcher'] = 'SUN_STANDARD';
     
@@ -287,8 +285,8 @@
             <tr valign="top">
                 <th width="80%">Name</th><th>Tests</th><th>Errors</th><th>Failures</th><th>Skipped</th><th nowrap>Time(s)</th><th nowrap>Time Stamp</th><th>Host</th>
             </tr>
-            <tr valign="top" class="Failure">
-                <td><a title="Display all tests" href="98_P49_PrinterStarsTest.html">P49_PrinterStarsTest</a></td><td><a title="Display all tests" href="98_P49_PrinterStarsTest.html">5</a></td><td>0</td><td><a title="Display only failures" href="98_P49_PrinterStarsTest-fails.html">3</a></td><td>0</td><td>0.242</td><td>2026-09-29T11:02:45</td><td>Navi</td>
+            <tr valign="top" class="Pass">
+                <td><a title="Display all tests" href="98_P49_PrinterStarsTest.html">P49_PrinterStarsTest</a></td><td><a title="Display all tests" href="98_P49_PrinterStarsTest.html">5</a></td><td>0</td><td>0</td><td>0</td><td>0.189</td><td>2026-10-20T11:37:05</td><td>Navi</td>
             </tr>
         </table>
         <h2>Tests</h2>
@@ -297,72 +295,19 @@
                 <th>Name</th><th>Status</th><th width="80%">Type</th><th nowrap>Time(s)</th>
             </tr>
             <tr valign="top" class="TableRowColor">
-                <td><a name="testEmptyArray"></a>testEmptyArray</td><td>Success</td><td></td><td>0.013</td>
+                <td><a name="testEmptyArray"></a>testEmptyArray</td><td>Success</td><td></td><td>0.022</td>
             </tr>
             <tr valign="top" class="TableRowColor">
-                <td><a name="testAllZeros"></a>testAllZeros</td><td>Success</td><td></td><td>0.001</td>
+                <td><a name="testAllZeros"></a>testAllZeros</td><td>Success</td><td></td><td>0.003</td>
             </tr>
-            <tr valign="top" class="Failure">
-                <td><a name="testTypicalArray"></a>testTypicalArray</td><td>Failure</td><td>Stars for {3, 1, 2} should be printed as expected expected:&lt;[***
-*
-**]&gt; but was:&lt;[]&gt;
-                    <br>
-                    <br>
-                    <code>junit.framework.AssertionFailedError: Stars for {3, 1, 2} should be printed as expected expected:&lt;[***
-                        <br>
-                        *
-                        <br>
-                        **]&gt; but was:&lt;[]&gt;
-                        <br>
-                        	at main.java.prog2.P49_PrinterStarsTest.testTypicalArray(Unknown Source)
-                        <br>
-                        	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-                        <br>
-                        	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:330)
-                        <br>
-                        	at java.base/java.lang.Thread.run(Thread.java:1516)
-                        <br>
-                    </code></td><td>0.022</td>
+            <tr valign="top" class="TableRowColor">
+                <td><a name="testTypicalArray"></a>testTypicalArray</td><td>Success</td><td></td><td>0.001</td>
             </tr>
-            <tr valign="top" class="Failure">
-                <td><a name="testMixedValues"></a>testMixedValues</td><td>Failure</td><td>Stars for {1, 4, 0, 2} should match expected:&lt;[*
-****
-
-**]&gt; but was:&lt;[]&gt;
-                    <br>
-                    <br>
-                    <code>junit.framework.AssertionFailedError: Stars for {1, 4, 0, 2} should match expected:&lt;[*
-                        <br>
-                        ****
-                        <br>
-                        <br>
-                        **]&gt; but was:&lt;[]&gt;
-                        <br>
-                        	at main.java.prog2.P49_PrinterStarsTest.testMixedValues(Unknown Source)
-                        <br>
-                        	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-                        <br>
-                        	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:330)
-                        <br>
-                        	at java.base/java.lang.Thread.run(Thread.java:1516)
-                        <br>
-                    </code></td><td>0.014</td>
+            <tr valign="top" class="TableRowColor">
+                <td><a name="testMixedValues"></a>testMixedValues</td><td>Success</td><td></td><td>0.004</td>
             </tr>
-            <tr valign="top" class="Failure">
-                <td><a name="testSingleValue"></a>testSingleValue</td><td>Failure</td><td>Stars for single value {5} should be '*****' expected:&lt;[*****]&gt; but was:&lt;[]&gt;
-                    <br>
-                    <br>
-                    <code>junit.framework.AssertionFailedError: Stars for single value {5} should be '*****' expected:&lt;[*****]&gt; but was:&lt;[]&gt;
-                        <br>
-                        	at main.java.prog2.P49_PrinterStarsTest.testSingleValue(Unknown Source)
-                        <br>
-                        	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-                        <br>
-                        	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:330)
-                        <br>
-                        	at java.base/java.lang.Thread.run(Thread.java:1516)
-                        <br>
-                    </code></td><td>0.004</td>
+            <tr valign="top" class="TableRowColor">
+                <td><a name="testSingleValue"></a>testSingleValue</td><td>Success</td><td></td><td>0.004</td>
             </tr>
         </table>
         <div class="Properties">

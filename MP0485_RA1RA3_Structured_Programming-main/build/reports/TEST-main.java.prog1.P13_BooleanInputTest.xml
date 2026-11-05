@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="Navi" name="main.java.prog1.P13_BooleanInputTest" skipped="0" tests="1" time="0.289" timestamp="2026-09-29T11:01:41">
+<testsuite errors="0" failures="0" hostname="Navi" name="main.java.prog1.P13_BooleanInputTest" skipped="0" tests="1" time="0.168" timestamp="2026-10-20T11:36:15">
   <properties>
     <property name="java.specification.version" value="26" />
     <property name="ant.project.name" value="MP0485_Programming" />
@@ -9,7 +9,7 @@
     <property name="java.vendor.url" value="https://adoptium.net/" />
     <property name="sun.boot.library.path" value="/usr/lib/apache-netbeans/jdk/lib" />
     <property name="netbeans.importclass" value="org.netbeans.upgrade.AutoUpgrade" />
-    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner main.java.prog1.P13_BooleanInputTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/home/auristar/NetBeansProjects/MP0485_RA1RA3_Structured_Programming-main/build/reports/TEST-main.java.prog1.P13_BooleanInputTest.xml formatter=org.apache.tools.ant.taskdefs.optional.junit.PlainJUnitResultFormatter,/home/auristar/NetBeansProjects/MP0485_RA1RA3_Structured_Programming-main/build/reports/TEST-main.java.prog1.P13_BooleanInputTest.txt crashfile=/home/auristar/NetBeansProjects/MP0485_RA1RA3_Structured_Programming-main/junitvmwatcher3170401056154185209.properties propsfile=/home/auristar/NetBeansProjects/MP0485_RA1RA3_Structured_Programming-main/junit8811729836767210838.properties" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner main.java.prog1.P13_BooleanInputTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/home/auristar/NetBeansProjects/MP0485_RA1RA3_Structured_Programming-main/build/reports/TEST-main.java.prog1.P13_BooleanInputTest.xml formatter=org.apache.tools.ant.taskdefs.optional.junit.PlainJUnitResultFormatter,/home/auristar/NetBeansProjects/MP0485_RA1RA3_Structured_Programming-main/build/reports/TEST-main.java.prog1.P13_BooleanInputTest.txt crashfile=/home/auristar/NetBeansProjects/MP0485_RA1RA3_Structured_Programming-main/junitvmwatcher1607075313627963712.properties propsfile=/home/auristar/NetBeansProjects/MP0485_RA1RA3_Structured_Programming-main/junit975546808506731521.properties" />
     <property name="test.classes.dir" value="build/test-classes" />
     <property name="guice_custom_class_loading" value="CHILD" />
     <property name="jdk.debug" value="release" />
@@ -40,7 +40,6 @@
     <property name="guice.disable.misplaced.annotation.check" value="true" />
     <property name="https.nonProxyHosts" value="localhost|127.0.0.1|Navi" />
     <property name="java.vendor.version" value="Temurin-26.0.2+10" />
-    <property name="nu.validator.checker.imageCandidateString.hasWidth" value="0" />
     <property name="apple.awt.application.appearance" value="system" />
     <property name="build.dir" value="build" />
     <property name="java.lang.Runtime.level" value="FINE" />
@@ -120,7 +119,7 @@
     <property name="org.netbeans.io.suspend" value="0" />
     <property name="ant.project.default-target" value="default" />
   </properties>
-  <testcase classname="main.java.prog1.P13_BooleanInputTest" name="testBooleanInput" time="0.026" />
+  <testcase classname="main.java.prog1.P13_BooleanInputTest" name="testBooleanInput" time="0.014" />
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

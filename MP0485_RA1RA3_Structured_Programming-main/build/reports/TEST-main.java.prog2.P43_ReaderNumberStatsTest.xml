@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="1" hostname="Navi" name="main.java.prog2.P43_ReaderNumberStatsTest" skipped="0" tests="1" time="0.191" timestamp="2026-09-29T11:02:41">
+<testsuite errors="0" failures="0" hostname="Navi" name="main.java.prog2.P43_ReaderNumberStatsTest" skipped="0" tests="1" time="0.209" timestamp="2026-10-20T11:37:01">
   <properties>
     <property name="java.specification.version" value="26" />
     <property name="ant.project.name" value="MP0485_Programming" />
@@ -9,7 +9,7 @@
     <property name="java.vendor.url" value="https://adoptium.net/" />
     <property name="sun.boot.library.path" value="/usr/lib/apache-netbeans/jdk/lib" />
     <property name="netbeans.importclass" value="org.netbeans.upgrade.AutoUpgrade" />
-    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner main.java.prog2.P43_ReaderNumberStatsTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/home/auristar/NetBeansProjects/MP0485_RA1RA3_Structured_Programming-main/build/reports/TEST-main.java.prog2.P43_ReaderNumberStatsTest.xml formatter=org.apache.tools.ant.taskdefs.optional.junit.PlainJUnitResultFormatter,/home/auristar/NetBeansProjects/MP0485_RA1RA3_Structured_Programming-main/build/reports/TEST-main.java.prog2.P43_ReaderNumberStatsTest.txt crashfile=/home/auristar/NetBeansProjects/MP0485_RA1RA3_Structured_Programming-main/junitvmwatcher2692337162553899871.properties propsfile=/home/auristar/NetBeansProjects/MP0485_RA1RA3_Structured_Programming-main/junit9503080883121114866.properties" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner main.java.prog2.P43_ReaderNumberStatsTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/home/auristar/NetBeansProjects/MP0485_RA1RA3_Structured_Programming-main/build/reports/TEST-main.java.prog2.P43_ReaderNumberStatsTest.xml formatter=org.apache.tools.ant.taskdefs.optional.junit.PlainJUnitResultFormatter,/home/auristar/NetBeansProjects/MP0485_RA1RA3_Structured_Programming-main/build/reports/TEST-main.java.prog2.P43_ReaderNumberStatsTest.txt crashfile=/home/auristar/NetBeansProjects/MP0485_RA1RA3_Structured_Programming-main/junitvmwatcher12358594243637648951.properties propsfile=/home/auristar/NetBeansProjects/MP0485_RA1RA3_Structured_Programming-main/junit17308004590212207060.properties" />
     <property name="test.classes.dir" value="build/test-classes" />
     <property name="guice_custom_class_loading" value="CHILD" />
     <property name="jdk.debug" value="release" />
@@ -40,7 +40,6 @@
     <property name="guice.disable.misplaced.annotation.check" value="true" />
     <property name="https.nonProxyHosts" value="localhost|127.0.0.1|Navi" />
     <property name="java.vendor.version" value="Temurin-26.0.2+10" />
-    <property name="nu.validator.checker.imageCandidateString.hasWidth" value="0" />
     <property name="apple.awt.application.appearance" value="system" />
     <property name="build.dir" value="build" />
     <property name="java.lang.Runtime.level" value="FINE" />
@@ -120,14 +119,7 @@
     <property name="org.netbeans.io.suspend" value="0" />
     <property name="ant.project.default-target" value="default" />
   </properties>
-  <testcase classname="main.java.prog2.P43_ReaderNumberStatsTest" name="testPosNegZeroStats" time="0.025">
-    <failure message="expected:&lt;5&gt; but was:&lt;0&gt;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: expected:&lt;5&gt; but was:&lt;0&gt;
-	at main.java.prog2.P43_ReaderNumberStatsTest.testPosNegZeroStats(Unknown Source)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:330)
-	at java.base/java.lang.Thread.run(Thread.java:1516)
-</failure>
-  </testcase>
+  <testcase classname="main.java.prog2.P43_ReaderNumberStatsTest" name="testPosNegZeroStats" time="0.06" />
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

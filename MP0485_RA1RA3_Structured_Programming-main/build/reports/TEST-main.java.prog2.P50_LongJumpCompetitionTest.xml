@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="2" hostname="Navi" name="main.java.prog2.P50_LongJumpCompetitionTest" skipped="0" tests="2" time="0.236" timestamp="2026-09-29T11:02:46">
+<testsuite errors="0" failures="2" hostname="Navi" name="main.java.prog2.P50_LongJumpCompetitionTest" skipped="0" tests="2" time="0.314" timestamp="2026-10-20T11:37:06">
   <properties>
     <property name="java.specification.version" value="26" />
     <property name="ant.project.name" value="MP0485_Programming" />
@@ -9,7 +9,7 @@
     <property name="java.vendor.url" value="https://adoptium.net/" />
     <property name="sun.boot.library.path" value="/usr/lib/apache-netbeans/jdk/lib" />
     <property name="netbeans.importclass" value="org.netbeans.upgrade.AutoUpgrade" />
-    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner main.java.prog2.P50_LongJumpCompetitionTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/home/auristar/NetBeansProjects/MP0485_RA1RA3_Structured_Programming-main/build/reports/TEST-main.java.prog2.P50_LongJumpCompetitionTest.xml formatter=org.apache.tools.ant.taskdefs.optional.junit.PlainJUnitResultFormatter,/home/auristar/NetBeansProjects/MP0485_RA1RA3_Structured_Programming-main/build/reports/TEST-main.java.prog2.P50_LongJumpCompetitionTest.txt crashfile=/home/auristar/NetBeansProjects/MP0485_RA1RA3_Structured_Programming-main/junitvmwatcher15031630304224094506.properties propsfile=/home/auristar/NetBeansProjects/MP0485_RA1RA3_Structured_Programming-main/junit14753553234039691350.properties" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner main.java.prog2.P50_LongJumpCompetitionTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/home/auristar/NetBeansProjects/MP0485_RA1RA3_Structured_Programming-main/build/reports/TEST-main.java.prog2.P50_LongJumpCompetitionTest.xml formatter=org.apache.tools.ant.taskdefs.optional.junit.PlainJUnitResultFormatter,/home/auristar/NetBeansProjects/MP0485_RA1RA3_Structured_Programming-main/build/reports/TEST-main.java.prog2.P50_LongJumpCompetitionTest.txt crashfile=/home/auristar/NetBeansProjects/MP0485_RA1RA3_Structured_Programming-main/junitvmwatcher1494896013429012594.properties propsfile=/home/auristar/NetBeansProjects/MP0485_RA1RA3_Structured_Programming-main/junit8608408217227034227.properties" />
     <property name="test.classes.dir" value="build/test-classes" />
     <property name="guice_custom_class_loading" value="CHILD" />
     <property name="jdk.debug" value="release" />
@@ -40,7 +40,6 @@
     <property name="guice.disable.misplaced.annotation.check" value="true" />
     <property name="https.nonProxyHosts" value="localhost|127.0.0.1|Navi" />
     <property name="java.vendor.version" value="Temurin-26.0.2+10" />
-    <property name="nu.validator.checker.imageCandidateString.hasWidth" value="0" />
     <property name="apple.awt.application.appearance" value="system" />
     <property name="build.dir" value="build" />
     <property name="java.lang.Runtime.level" value="FINE" />
@@ -120,7 +119,7 @@
     <property name="org.netbeans.io.suspend" value="0" />
     <property name="ant.project.default-target" value="default" />
   </properties>
-  <testcase classname="main.java.prog2.P50_LongJumpCompetitionTest" name="testSortByBestMark" time="0.032">
+  <testcase classname="main.java.prog2.P50_LongJumpCompetitionTest" name="testSortByBestMark" time="0.025">
     <failure message="Expected: &quot;103&quot;, but got: &quot;101&quot; expected:&lt;103&gt; but was:&lt;101&gt;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Expected: &quot;103&quot;, but got: &quot;101&quot; expected:&lt;103&gt; but was:&lt;101&gt;
 	at main.java.prog2.P50_LongJumpCompetitionTest.testSortByBestMark(Unknown Source)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
@@ -128,7 +127,7 @@
 	at java.base/java.lang.Thread.run(Thread.java:1516)
 </failure>
   </testcase>
-  <testcase classname="main.java.prog2.P50_LongJumpCompetitionTest" name="testSortByDorsal" time="0.004">
+  <testcase classname="main.java.prog2.P50_LongJumpCompetitionTest" name="testSortByDorsal" time="0.003">
     <failure message="Expected: &quot;101&quot;, but got: &quot;105&quot; expected:&lt;101&gt; but was:&lt;105&gt;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Expected: &quot;101&quot;, but got: &quot;105&quot; expected:&lt;101&gt; but was:&lt;105&gt;
 	at main.java.prog2.P50_LongJumpCompetitionTest.testSortByDorsal(Unknown Source)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)

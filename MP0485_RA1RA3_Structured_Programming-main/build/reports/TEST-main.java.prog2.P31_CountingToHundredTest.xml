@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="3" hostname="Navi" name="main.java.prog2.P31_CountingToHundredTest" skipped="0" tests="3" time="0.255" timestamp="2026-09-29T11:02:32">
+<testsuite errors="0" failures="0" hostname="Navi" name="main.java.prog2.P31_CountingToHundredTest" skipped="0" tests="3" time="0.145" timestamp="2026-10-20T11:36:54">
   <properties>
     <property name="java.specification.version" value="26" />
     <property name="ant.project.name" value="MP0485_Programming" />
@@ -9,7 +9,7 @@
     <property name="java.vendor.url" value="https://adoptium.net/" />
     <property name="sun.boot.library.path" value="/usr/lib/apache-netbeans/jdk/lib" />
     <property name="netbeans.importclass" value="org.netbeans.upgrade.AutoUpgrade" />
-    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner main.java.prog2.P31_CountingToHundredTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/home/auristar/NetBeansProjects/MP0485_RA1RA3_Structured_Programming-main/build/reports/TEST-main.java.prog2.P31_CountingToHundredTest.xml formatter=org.apache.tools.ant.taskdefs.optional.junit.PlainJUnitResultFormatter,/home/auristar/NetBeansProjects/MP0485_RA1RA3_Structured_Programming-main/build/reports/TEST-main.java.prog2.P31_CountingToHundredTest.txt crashfile=/home/auristar/NetBeansProjects/MP0485_RA1RA3_Structured_Programming-main/junitvmwatcher15623491901435712053.properties propsfile=/home/auristar/NetBeansProjects/MP0485_RA1RA3_Structured_Programming-main/junit6654096090355111001.properties" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner main.java.prog2.P31_CountingToHundredTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/home/auristar/NetBeansProjects/MP0485_RA1RA3_Structured_Programming-main/build/reports/TEST-main.java.prog2.P31_CountingToHundredTest.xml formatter=org.apache.tools.ant.taskdefs.optional.junit.PlainJUnitResultFormatter,/home/auristar/NetBeansProjects/MP0485_RA1RA3_Structured_Programming-main/build/reports/TEST-main.java.prog2.P31_CountingToHundredTest.txt crashfile=/home/auristar/NetBeansProjects/MP0485_RA1RA3_Structured_Programming-main/junitvmwatcher17279866137012244122.properties propsfile=/home/auristar/NetBeansProjects/MP0485_RA1RA3_Structured_Programming-main/junit5634046719208097640.properties" />
     <property name="test.classes.dir" value="build/test-classes" />
     <property name="guice_custom_class_loading" value="CHILD" />
     <property name="jdk.debug" value="release" />
@@ -40,7 +40,6 @@
     <property name="guice.disable.misplaced.annotation.check" value="true" />
     <property name="https.nonProxyHosts" value="localhost|127.0.0.1|Navi" />
     <property name="java.vendor.version" value="Temurin-26.0.2+10" />
-    <property name="nu.validator.checker.imageCandidateString.hasWidth" value="0" />
     <property name="apple.awt.application.appearance" value="system" />
     <property name="build.dir" value="build" />
     <property name="java.lang.Runtime.level" value="FINE" />
@@ -120,141 +119,9 @@
     <property name="org.netbeans.io.suspend" value="0" />
     <property name="ant.project.default-target" value="default" />
   </properties>
-  <testcase classname="main.java.prog2.P31_CountingToHundredTest" name="testCountingFrom95" time="0.039">
-    <failure message="expected:&lt;[95&#xa;96&#xa;97&#xa;98&#xa;99&#xa;100&#xa;]&gt; but was:&lt;[]&gt;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: expected:&lt;[95
-96
-97
-98
-99
-100
-]&gt; but was:&lt;[]&gt;
-	at main.java.prog2.P31_CountingToHundredTest.testOutput(Unknown Source)
-	at main.java.prog2.P31_CountingToHundredTest.testCountingFrom95(Unknown Source)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:330)
-	at java.base/java.lang.Thread.run(Thread.java:1516)
-</failure>
-  </testcase>
-  <testcase classname="main.java.prog2.P31_CountingToHundredTest" name="testCountingFrom0" time="0.019">
-    <failure message="expected:&lt;[0&#xa;1&#xa;2&#xa;3&#xa;4&#xa;5&#xa;6&#xa;7&#xa;8&#xa;9&#xa;10&#xa;11&#xa;12&#xa;13&#xa;14&#xa;15&#xa;16&#xa;17&#xa;18&#xa;19&#xa;20&#xa;21&#xa;22&#xa;23&#xa;24&#xa;25&#xa;26&#xa;27&#xa;28&#xa;29&#xa;30&#xa;31&#xa;32&#xa;33&#xa;34&#xa;35&#xa;36&#xa;37&#xa;38&#xa;39&#xa;40&#xa;41&#xa;42&#xa;43&#xa;44&#xa;45&#xa;46&#xa;47&#xa;48&#xa;49&#xa;50&#xa;51&#xa;52&#xa;53&#xa;54&#xa;55&#xa;56&#xa;57&#xa;58&#xa;59&#xa;60&#xa;61&#xa;62&#xa;63&#xa;64&#xa;65&#xa;66&#xa;67&#xa;68&#xa;69&#xa;70&#xa;71&#xa;72&#xa;73&#xa;74&#xa;75&#xa;76&#xa;77&#xa;78&#xa;79&#xa;80&#xa;81&#xa;82&#xa;83&#xa;84&#xa;85&#xa;86&#xa;87&#xa;88&#xa;89&#xa;90&#xa;91&#xa;92&#xa;93&#xa;94&#xa;95&#xa;96&#xa;97&#xa;98&#xa;99&#xa;100&#xa;]&gt; but was:&lt;[]&gt;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: expected:&lt;[0
-1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
-14
-15
-16
-17
-18
-19
-20
-21
-22
-23
-24
-25
-26
-27
-28
-29
-30
-31
-32
-33
-34
-35
-36
-37
-38
-39
-40
-41
-42
-43
-44
-45
-46
-47
-48
-49
-50
-51
-52
-53
-54
-55
-56
-57
-58
-59
-60
-61
-62
-63
-64
-65
-66
-67
-68
-69
-70
-71
-72
-73
-74
-75
-76
-77
-78
-79
-80
-81
-82
-83
-84
-85
-86
-87
-88
-89
-90
-91
-92
-93
-94
-95
-96
-97
-98
-99
-100
-]&gt; but was:&lt;[]&gt;
-	at main.java.prog2.P31_CountingToHundredTest.testOutput(Unknown Source)
-	at main.java.prog2.P31_CountingToHundredTest.testCountingFrom0(Unknown Source)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:330)
-	at java.base/java.lang.Thread.run(Thread.java:1516)
-</failure>
-  </testcase>
-  <testcase classname="main.java.prog2.P31_CountingToHundredTest" name="testCountingFrom100" time="0.005">
-    <failure message="expected:&lt;[100&#xa;]&gt; but was:&lt;[]&gt;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: expected:&lt;[100
-]&gt; but was:&lt;[]&gt;
-	at main.java.prog2.P31_CountingToHundredTest.testOutput(Unknown Source)
-	at main.java.prog2.P31_CountingToHundredTest.testCountingFrom100(Unknown Source)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:330)
-	at java.base/java.lang.Thread.run(Thread.java:1516)
-</failure>
-  </testcase>
+  <testcase classname="main.java.prog2.P31_CountingToHundredTest" name="testCountingFrom95" time="0.016" />
+  <testcase classname="main.java.prog2.P31_CountingToHundredTest" name="testCountingFrom0" time="0.005" />
+  <testcase classname="main.java.prog2.P31_CountingToHundredTest" name="testCountingFrom100" time="0.008" />
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
