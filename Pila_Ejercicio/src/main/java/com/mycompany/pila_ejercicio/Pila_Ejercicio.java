@@ -14,10 +14,18 @@ import java.util.Scanner;
 public class Pila_Ejercicio {
 
     public static void main(String[] args) {
-        int array[] = new int[10];
-        Arrays.fill(array, -1);
+        
+        int pila_total = 10;
+        int cima = -1;
+        
+        
+        int[] pila = new int[pila_total];
+        Arrays.fill(pila, -1);
         int opc;
         Scanner sc = new Scanner(System.in);
+        
+        
+         do {   
         
         System.out.println("Selecciona una opción (1-4) o 0 para salir:");
         System.out.println();
@@ -27,19 +35,32 @@ public class Pila_Ejercicio {
         System.out.println("4.- Mostrar Último");
         System.out.println("-------------------");
         
-        do {            
-            opc = menu();
+                
+            opc = menu(sc);
             switch (opc) {
-                case 1: //apilar(array); 
-                    break;
+                case 1: //apilar(array);
+                    
+                    cima= apilar(pila,cima, sc);
+                    
+                break;
+                    
                     
                 case 2: //desapilar(array); 
+                    
+                    cima = desapilar(pila,cima);
+
+                    
                     break;
                     
                 case 3: //mostrarPrimero(array); 
+                    
+                    mostrarPrimero(pila, cima);
                     break;
                     
                 case 4: //mostrarUltimo(array); 
+                    
+                    
+                    mostrarUltimo(pila, cima);
                     break;
                      
             }
@@ -47,11 +68,55 @@ public class Pila_Ejercicio {
         } while (opc != 0);
     }
 
-    public static int menu() {
+    public static int menu(Scanner sc) {
         int op=0;
-        Scanner sc = new Scanner(System.in);
         op = sc.nextInt();
-        System.out.println(op);
         return op;
     }
+    public static int apilar(int[] pila, int cima, Scanner sc) {
+                    
+                    if (cima < pila.length-1) {
+                        System.out.println("Introduce un número:");
+                        int pila_apilar = sc.nextInt();
+                        cima++;
+                        pila[cima] = pila_apilar;
+                            }
+                    else {
+                        System.out.println("La pila está llena");
+                        }
+                    
+                    return cima;
+                    }
+    
+    public static int desapilar(int[] pila, int cima) {
+        
+        if (cima > -1) {
+            pila[cima] = -1;
+            cima--;
+        }
+        else {
+            System.out.println("La pila está vacía");
+        }
+        return cima;
+    }
+    
+    public static void mostrarPrimero(int[] pila, int cima) {
+        if(cima == -1) {
+            System.out.println("La pila está vacia.");
+        }
+        else{
+        System.out.println(pila[0]);
+        }
+    }
+    public static void mostrarUltimo(int[] pila, int cima) {
+         if(cima == -1) {
+            System.out.println("La pila está vacia.");
+        }
+        else{
+        System.out.println(pila[cima]);
+        }
+    }
+    
+    
+    
 }
